@@ -110,6 +110,12 @@ Cinebinge/
 
 ---
 
+<h2>🟢 Live </h2>
+
+<a href="https://github.com/shreyasConnect">CineBinge</a>
+
+---
+
 <h2>📝 License</h2>
 
 <p>This project is licensed under the MIT License.</p>
