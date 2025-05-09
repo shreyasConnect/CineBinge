@@ -1,10 +1,10 @@
-<h1 text-align="center">🎥 Cinebinge - Movie Explorer</h1>
+<h1 >🎥 Cinebinge - Movie Explorer</h1>
 
-<p text-align="center">
-    <img src="https://via.placeholder.com/600x250.png?text=Cinebinge+Logo" alt="Cinebinge Logo">
+<p >
+    <img src="src\assets\cinema.png" alt="Cinebinge Logo">
 </p>
 
-<p text-align="center">
+<p >
     A modern, feature-rich movie explorer built with React, CSS, and the OMDb API.
 </p>
 
@@ -64,8 +64,18 @@ Cinebinge/
 
 <h2>📸 Preview</h2>
 
-<p text-align="center">
-    <img src="https://via.placeholder.com/800x400.png?text=Screenshot+Coming+Soon" alt="Project Screenshot">
+<p >
+    <img src="src\assets\Home Page.png" alt="Home Page">
+    <img src="src\assets\Home Page-2.png" alt="Home Page">
+</p>
+<p >
+    <img src="src\assets\Contact.png" alt="Contact Us Page">
+</p>
+<p >
+    <img src="src\assets\Favourites.png" alt="Favourites Page">
+</p>
+<p >
+    <img src="src\assets\Description.png" alt="Description Page">
 </p>
 
 ---
@@ -110,4 +120,4 @@ Cinebinge/
 
 <p>If you have any feedback or suggestions, please reach out!</p>
 
-<p text-align="center">Made with ❤️ by <a href="https://github.com/shreyasConnect">Shreyas Patil</a></p>
+<p >Made with ❤️ by <a href="https://github.com/shreyasConnect">Shreyas Patil</a></p>
