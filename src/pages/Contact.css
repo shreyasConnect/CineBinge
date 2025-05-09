@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-roboto: "Roboto Slab", serif;
+    --font-raleway: "Raleway", sans-serif;
+}
+
+body {
+    font-family: var(--font-roboto);
+    background: #780257;
+    background: -webkit-linear-gradient(to right, #061161, #780206);
+    background: linear-gradient(to right, #061161, #780206);
+}
+
+.fav {
+    text-align: center;
+    padding: 1rem;
+    font-size: 3.5rem;
+    font-family: var(--font-raleway);
+    color: wheat;
+}
+
+
+.contact-container {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.contact-form {
+    background-color: #2c2c2c;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.contact-form h2 {
+    font-size: 2.5rem;
+    color: #f9d3b4;
+    margin-bottom: 1.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 1.2rem;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #3c3c3c;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #f9d3b4;
+    color: #1a1a1a;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #e2b993;
+}

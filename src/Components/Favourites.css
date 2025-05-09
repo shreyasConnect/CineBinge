@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-roboto: "Roboto Slab", serif;
+    --font-raleway: "Raleway", sans-serif;
+}
+
+body {
+    font-family: var(--font-roboto);
+    background: #780257;
+    background: -webkit-linear-gradient(to right, #061161, #780206);
+    background: linear-gradient(to right, #061161, #780206);
+}
+
+.fav {
+    text-align: center;
+    padding: 1rem;
+    font-size: 3.5rem;
+    font-family: var(--font-raleway);
+    color: wheat;
+}
+
+.no-fav {
+    font-size: 1.25rem;
+    color: #f9d3b4;
+    font-family: var(--font-raleway);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    font-family: var(--font-raleway);
+    font-weight: 500;
+}
+
+.pagination button {
+    background-color: #343739;
+    color: #9ef3fc;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    font-family: var(--font-raleway);
+    font-weight: 500;
+}
+
+.pagination button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+    background-color: #444;
+}
+
+.pagination span {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.loader {
+    color: #ffffff;
+    font-size: 45px;
+    text-indent: -9999em;
+    overflow: hidden;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    position: relative;
+    transform: translateZ(0);
+    animation: mltShdSpin 1.7s infinite ease, round 1.7s infinite ease;
+}
+
+@keyframes mltShdSpin {
+    0% {
+        box-shadow: 0 -0.83em 0 -0.4em,
+            0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
+            0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+
+    5%,
+    95% {
+        box-shadow: 0 -0.83em 0 -0.4em,
+            0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
+            0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+
+    10%,
+    59% {
+        box-shadow: 0 -0.83em 0 -0.4em,
+            -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em,
+            -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+    }
+
+    20% {
+        box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em,
+            -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em,
+            -0.749em -0.34em 0 -0.477em;
+    }
+
+    38% {
+        box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em,
+            -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em,
+            -0.82em -0.09em 0 -0.477em;
+    }
+
+    100% {
+        box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em,
+            0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+}
+
+@keyframes round {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
