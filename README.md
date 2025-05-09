@@ -112,7 +112,7 @@ Cinebinge/
 
 <h2>🟢 Live </h2>
 
-<a href="https://github.com/shreyasConnect">CineBinge</a>
+<a href="https://cinebinge.onrender.com">CineBinge</a>
 
 ---
 
